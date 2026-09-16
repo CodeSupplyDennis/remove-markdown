@@ -8,6 +8,7 @@ declare function removeMd(md: string, options?: {
   separateLinksAndTexts?: string;
   htmlTagsToSkip?: string[];
   throwError?: boolean;
+  customInlineFences?: string[];
 }): string;
 
 export = removeMd;

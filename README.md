@@ -72,6 +72,7 @@ const plainText = removeMd(markdown, {
   separateLinksAndTexts: ': ', // replace inline links with text, separator and link, if present (default: null)
   htmlTagsToSkip: ['a', 'b'],  // HTML tags to skip, if present (default: [])
   throwError: false,           // throw errors instead of catching and logging (default: false)
+  customInlineFences: ['++', '=='],  // remove custom markdown fences around phrases (default: [])
 });
 ```
 
